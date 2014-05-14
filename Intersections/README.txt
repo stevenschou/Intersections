@@ -1,6 +1,5 @@
-Steven Chou <stevenschou@gmail.com>
-Vayable
-10/12/2012
+Steven Chou 
+<stevenschou@gmail.com>
 
 ********************************************************************************
  The Problem
@@ -90,31 +89,6 @@ the final hashtable. Our final hashtable will look like the following:
 
 Street1 will always come before street2 alphabetically
 
-********************************************************************************
- Extras
-********************************************************************************
-
-I've also written a small logger that will log different errors and things that
-happen. At the end of a session, a "log.txt" file will be created where you can
-see what the user did during the session
-
-I've also written several unit tests that test the functionality of the smaller
-components as well as basic tests to test the functionality of the geocoder.
-
-********************************************************************************
- Files
-********************************************************************************
-
- coordinate.rb - coordinate class that stores a latitude/longitude pair
- ut_coordinate.rb - unit tests for the coordinate class
-
- geocoder.rb - the actual geocoded
- ut_geocoder.rb - the unit tests for the geocoded
-
- misc.rb - some misc functions that were needed to build the code
- ut_misc.rb - the unit tests for the misc functions
-
- main.rb - the main command line interface for the geocoded - run this!
 
  logs.txt - (not necessarily there) the log file from the logger
  
